@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/andrustn85/coffee-counter.git/precache-manifest.fbb1c3be1c81ecde5df4c990df713124.js"
+  "/coffee-counter/precache-manifest.4ed6d126cc0620a9ad1ef688fa7f6548.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/andrustn85/coffee-counter.git/index.html", {
+workbox.routing.registerNavigationRoute("/coffee-counter/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
